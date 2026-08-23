@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: MIT
+
+config SHIELD_PJBOARDV2_LEFT
+    def_bool $(shields_list_contains,pjboardv2_left)
+
+config SHIELD_PJBOARDV2_RIGHT
+    def_bool $(shields_list_contains,pjboardv2_right)

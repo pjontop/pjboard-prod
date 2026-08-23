@@ -1,0 +1,19 @@
+/* SPDX-License-Identifier: MIT */
+
+#include "pjboardv2.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};
+
+&kscan0 {
+    /* Reversed because PCB COL5 is the right half's innermost column. */
+    col-gpios
+        = <&gpio1 6  GPIO_ACTIVE_HIGH>
+        , <&gpio0 8  GPIO_ACTIVE_HIGH>
+        , <&gpio0 22 GPIO_ACTIVE_HIGH>
+        , <&gpio0 24 GPIO_ACTIVE_HIGH>
+        , <&gpio1 0  GPIO_ACTIVE_HIGH>
+        , <&gpio0 17 GPIO_ACTIVE_HIGH>
+        ;
+};

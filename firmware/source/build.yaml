@@ -1,0 +1,8 @@
+---
+include:
+  - board: nice_nano_v2
+    shield: pjboardv2_left nice_view_hid_adapter raw_hid_adapter
+    artifact-name: pjboardv2_left
+  - board: nice_nano_v2
+    shield: pjboardv2_right nice_view_hid_adapter
+    artifact-name: pjboardv2_right

@@ -1,0 +1,12 @@
+file_format: "1"
+id: pjboardv2
+name: PJBoard v2
+type: shield
+requires: [pro_micro]
+exposes: [nice_view_header]
+features:
+  - keys
+  - display
+siblings:
+  - pjboardv2_left
+  - pjboardv2_right

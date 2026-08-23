@@ -1,0 +1,19 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: zzeneg
+      url-base: https://github.com/zzeneg
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: v0.3
+      import: app/west.yml
+    - name: zmk-nice-view-hid
+      remote: zzeneg
+      revision: 9bee6b9dec38a22b428cdc55274ea36e6e8b7ddf
+    - name: zmk-raw-hid
+      remote: zzeneg
+      revision: e25e325adc90fccb60cc08393b8c2b0ba6d647c7
+  self:
+    path: config
