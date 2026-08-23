@@ -60,6 +60,8 @@ The two thumb layer keys make it possible to keep the board at only 42 keys with
 
 Here should be the main stuff you need to build PJBoard:
 
+A better BOM Can be found in the bom.csv in the main directory, this is merely meant for a rough look over.
+
 - 42x Kailh Choc low-profile switches
 - 42x Kailh Choc hotswap sockets
 - 42x low-profile keycaps
@@ -103,3 +105,5 @@ I am super thankful to [Hack Club](https://hackclub.com/) for funding this proje
 Also, Macondo is awesome. Seriously. Programs like this are the reason I can learn hardware by actually making something real instead of just watching another tutorial and forgetting everything five minutes later.
 
 alr toodles :3
+
+
